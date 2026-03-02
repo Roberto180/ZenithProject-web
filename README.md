@@ -1,3 +1,13 @@
+<p align="center">
+  <img src="./3.png" alt="Zenith Banner" width="600"/>
+</p>
+
+<h1 align="center">Zenith</h1>
+
+<p align="center">
+  Painel Web para Gerenciamento Terapêutico
+</p>
+
 # 🧠 Zenith — Painel Web do Psicólogo
 
 

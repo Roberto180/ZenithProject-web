@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/criarScreen2.css">
+    <title>Criar conta</title>
+    <link rel="icon" type="image/x-icon" href="./img/logo z.PNG">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <main> <!-- main: 1 -->
+        
+        <section> <!-- section: 2 -->
+            
+            <!-- logo e nome do site -->
+            <article>
+                <figure>
+                    <img src="./img/logo.png" alt="Logo Zenith">
+                </figure>
+                <p>Cadastro de Psicólogo</p>
+            </article>
+
+            <!-- botões e etc abaixo em section-->
+               <form action="#" method="post">
+
+                   <div class="linha1">
+                       
+                       <div class="input-container">
+                           <img src="./img/user.svg" alt="icone" class="icon-input">
+                           <label for="email" class="label-diferenciado">CRP (Registro Profissional):</label>
+                           <input type="text" class="input-diferenciado" name="email" required placeholder="00/00000">
+                       </div>
+                   </div>
+                   
+                   <!-- ----separador---- -->
+
+                   <div class="linha2">
+                       <div class="input-container">
+                           <img src="./img/email.svg" alt="icone" class="icon-input">
+                           <label for="email" class="label-diferenciado">Possui cadastro no e-psi?</label>
+                           <input type="text" class="input-diferenciado" name="email" required placeholder="Seu@email.com">
+                       </div>
+
+                       <p>você tem cadastro no e-psi?</p>
+                       <div class="sN">
+                            
+                            <label for="radius">
+                            <input type="radio" id="termos" name="termos" required><p>não</p>
+                            <input type="radio" id="termos" name="termos" required><p>sim</p>
+                            </label>
+                       </div>
+                       
+                       <div class="input-container">
+                           <img src="./img/telefone.svg" alt="icone" class="icon-input">
+                           <label for="password" class="label-diferenciado">Qual seu grau de formação?</label>
+                           <input type="text" class="input-diferenciado" name="password" required placeholder="GRADUADO">
+                       </div>
+                   </div>
+
+                   <!-- ----separador---- -->
+                   <div class="containerT">
+                      <label for="termos" class="termos">
+                          <input type="checkbox" id="termos" name="termos" required>
+                          <span>Concordo com os</span> <a href="#" class="link-termos">Termos de Uso</a> <span>e</span> <a href="#" class="link-termos">Política de Privacidade</a>.
+                        </label>
+                    </div>
+                    
+                    <button href="./criarScreen.html" class="botaoC">Criar conta</button>
+                </form>
+                
+            </section>
+        
+        </main>
+        <p class="mds">&copy; 2026 Zenith. Todos os direitos reservados.</p>
+
+</body>
+</html>
